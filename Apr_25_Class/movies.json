@@ -1,0 +1,29 @@
+{
+	"movies": [
+		{
+			"name": "The Terminator",
+			"year": "1992",
+			"genre": "Action, sci-fi"
+		},
+		{
+			"name": "Fast and Furious 8",
+			"year": "2017",
+			"genre": "Action"
+		},
+		{
+			"name": "Batman vs. Superman",
+			"year": "2016",
+			"genre": "Action"
+		},
+		{
+			"name": "This Is Us",
+			"year": "2017",
+			"genre": "drama"
+		},
+		{
+			"name": "The Get Down",
+			"year": "2017",
+			"genre": "Drama"
+		}
+	]
+}

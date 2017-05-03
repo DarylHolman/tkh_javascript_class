@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="apr-18">
+<head><script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+<script src="main.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+	<div ng-repeat="list in aList">
+		 His ID is {{list.id}} and name is {{aList[1].person}}
+	</div>
+	<input ng-model="myVar" type="text">
+	{{myVar}}
+
+</body>
+</html>

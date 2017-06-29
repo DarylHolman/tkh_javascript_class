@@ -20,6 +20,7 @@ var pages = {
         res.render("login");
     },
     signup: function(req, res){
+      console.log('test')
         auth({
           name: req.body.username,
           pass: req.body.password,
@@ -38,6 +39,7 @@ var pages = {
         });
     },
     post: function(req, res){
+
       Posts.findOne({"_id": req.query.p}, function(err, post){
         if(err){
           console.log(err);

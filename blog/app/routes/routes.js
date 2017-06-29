@@ -23,7 +23,7 @@ module.exports = function(app, passport){
 
     app.post(r.login, passport.authenticate("local-login", {
       successRedirect: r.index,
-      failureRedirect: r.login
+      failureRedirect: r.login 
     }));
 
     app.post(r.create, controllers.session, controllers.blogCtrl.create);
